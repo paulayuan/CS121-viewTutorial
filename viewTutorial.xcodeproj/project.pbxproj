@@ -21,6 +21,7 @@
 		8CA680E319C1360D00B944CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA680C519C1360C00B944CE /* UIKit.framework */; };
 		8CA680EB19C1360D00B944CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CA680E919C1360D00B944CE /* InfoPlist.strings */; };
 		8CA680ED19C1360D00B944CE /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA680EC19C1360D00B944CE /* viewTutorialTests.m */; };
+		8CA680F819C136D100B944CE /* PYGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA680F719C136D100B944CE /* PYGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8CA680E819C1360D00B944CE /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		8CA680EA19C1360D00B944CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8CA680EC19C1360D00B944CE /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		8CA680F619C136D100B944CE /* PYGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYGrid.h; sourceTree = "<group>"; };
+		8CA680F719C136D100B944CE /* PYGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				8CA680D319C1360D00B944CE /* Main.storyboard */,
 				8CA680D619C1360D00B944CE /* PYViewController.h */,
 				8CA680D719C1360D00B944CE /* PYViewController.m */,
+				8CA680F619C136D100B944CE /* PYGrid.h */,
+				8CA680F719C136D100B944CE /* PYGrid.m */,
 				8CA680D919C1360D00B944CE /* Images.xcassets */,
 				8CA680C819C1360D00B944CE /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				8CA680D819C1360D00B944CE /* PYViewController.m in Sources */,
 				8CA680CE19C1360D00B944CE /* main.m in Sources */,
+				8CA680F819C136D100B944CE /* PYGrid.m in Sources */,
 				8CA680D219C1360D00B944CE /* PYAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
